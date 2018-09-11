@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>GN: Sega</title>
+<link href="https://fonts.googleapis.com/css?family=Coda+Caption:800|Indie+Flower|Lobster|Work+Sans" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/
+font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="cscript.js"></script>
+<style type="text/css">
+	body{
+		background: linear-gradient(navy, blue, lightblue);
+		color: white;
+	}
+	.menu {
+		list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+	}
+	.menu li {
+		float: left;
+	}
+	  .dropbtn {
+    	background-color: navy; 
+    	text-shadow: 1px 1px 2px red;
+    }
+    .drop-content {
+    display: none;
+    position: absolute;
+    background-color: navy;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.drop-content a {
+	text-shadow: 1px 1px 2px red;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.drop-content a:hover {background-color: #f1f1f1}
+
+.drop:hover .drop-content {
+    display: block;
+}
+	h1 {
+		font-size: 20px;
+		font-style: italic;
+		font-family: Lobster;
+	}
+	h3 {
+		font-weight: bold;
+	}
+	body > h1{
+		font-size: 30px;
+	}
+	img{
+		align-self: center;
+		border: 15px solid lightblue;
+		outline: 20px groove blue;
+		width: 400px;
+		height: 151px;
+	}
+	div > img {
+		height: 151px;
+		width: 151px;
+		margin-left: auto;
+		margin-right: 30px;
+		float: left;
+	}
+	.headPhoto{
+		align-self: center;
+		border: 15px solid lightblue;
+		outline: 20px groove blue;
+		margin-right:550px; 
+		margin-left:450px;
+		width: 400px;
+		height: 151px;
+	}
+	.cart {
+  width: 42px;
+  height: 35px;
+  background-color: navy;
+  border: none;
+  padding: none;
+  outline: none;
+  text-align: left;
+  }
+	a:link, a:visited {
+color: red;
+padding: 7px 15px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 25px;
+}
+a:hover, a:active {
+background-color: white;
+text-decoration: underline;
+font-size: 25px;
+}
+li {
+	font-style: italic;
+}
+</style>
+</head>
+<h1 style="padding-bottom: 20px" style="color: red;" style="font-family: Lobster">Game Nomad</h1>
+<body>
+	<img src="Sega logo.jpg" class="headPhoto" style="display: block;" title="Sega logo">
+	<h1 style="text-align: center;" style="font-family: Lobster"><b>Products</b></h1>
+	<ul class="menu">
+	<li class="drop">
+    <a href="javascript:void(0)" class="dropbtn"><i class="fa fa-bars"></i></a>
+    <div class="drop-content">
+     <a href="Sega.html" style="display: block;">Back to Main Page</a>
+     <a href="S Franchises.html" style="display: block;">Franchises</a>
+     <a href="http://www.sega.com/" target="_blank" style="display: block;">Site</a>
+    </div>
+  </li>
+  <li>
+  	<a href="Shopcart.html"><img src="Shopping-Cart.png" class="cart">Check Cart</a>
+  </li>
+	</ul>
+	<hr>
+	<h2><i id="pnam">Sega Genesis (A.K.A Mega Drive, r. 1986)</i></h2>
+	<h3 id="pprice">Price: $189.00</h3>
+	<div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqk0DM1nkjDhITRFUiOUNABKr4t6vrbdmVTURQxqrS8b5QcIRlFQ"></div>
+	<p style="font-size: 20px;">
+		The first-ever 16-bit console developed by Sega, the Genesis was meant to be - essentialy - a toss in the hat for competition between Sega and Nintendo, who was well-known for the NES at the time. Things didn't go all that smoothly for the system, and was only until the release of <i>Sonic The Hedgehog</i>
+		that the system actually gained clout here in the U.S, as well as establish the greatest rivalry to dominate the gaming market in the 90's. 
+	</p>
+	<br>
+	<p>Top Review: <q><i>You cannot call yourself a gaming enthusiast if you don't know about this system. This system brought us so many good games, a legendary franchise, and-of course-hours of fun and entertainment.The motto stands; Genesis truly does what Nintendon't.</i></q></p>
+	<br>
+	
+	<form action="S Products.html" method="Post">
+		<p>Anything to add? write here: </p>
+		<textarea cols="30" rows="20" placeholder="Cast your enthusiasm"></textarea><br>
+		<input type="submit" name="Post">
+	</form>
+	<form action="Shopcart.html" method="Post">
+  Quantity:
+  <input type="number" id="quan" min="0" max="100" step="1" value="1">
+  <button onclick="addToCart()">Add To Cart</button>
+</form>
+	<hr>
+	<h2><i id="pnam">Sega Saturn (r. 1995)</i></h2>
+	<h3 id="pprice">Price: $399.00</h3>
+	<div><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Sega-Saturn-Console-Set-Mk2.jpg/250px-Sega-Saturn-Console-Set-Mk2.jpg"></div>
+	<p style="font-size: 20px;">
+		The next console in the line-up, The Saturn had alot going for it, being developed after the pivotal success of the Genesis. Unfortunately, this pressure to outdo its predecessor, as well as its competition (the Playstation and Nintendo 64) contributed to the factors that culminated in the Saturn's inevitable failure. Despite this, it still managed to have a decent library of games, as well as serve as the starting point for many successful Sega franchises other than Sonic. 
+	</p>
+	<br>
+	<p>Top Review: <q><i>Not too great a system, but it still shines on its own. It has some treasured titles, and holds up well with performance. If you wish to experience the era of early 3d games with Sega, get this system.</i></q></p>
+	<br>
+	<form>
+		<p>Anything to add? write here: </p>
+		<textarea cols="30" rows="20" placeholder="Cast your enthusiasm"></textarea><br>
+		<input type="submit" name="Post">
+	</form>
+	<form action="Shopcart.html" method="Post">
+  Quantity:
+  <input type="number" id="quan" min="0" max="100" step="1" value="1">
+  <button onclick="addToCart()">Add To Cart</button>
+</form>
+	<hr>
+	<h2><i id="pnam">Sega Dreamcast (r. 1999)</i></h2>
+	<h3 id="pprice">Price: $199.00</h3>
+	<div><img src="https://segaretro.org/images/8/80/Dreamcast.jpg"></div>
+	<p style="font-size: 20px;">
+		The third and final home console produced by Sega before the company's turn to third-party development. The Dreamcast was far from a bad console; it had great games, and it housed the best entries of Sega's respective franchises, like the Sonic Adventure series and Virtua Fighter 3: tb. However, having great games and innovative features did not stop the fact that it was being beat out; not by rival nintendo, but by Playstation creator Sony, due to the built-up excitemnet over the console's sequel, the Playstation 2. A number of other factors led to a decline in sales of the Dreamcast, and then a discontinuation of the system in 2001. 
+	</p>
+	<br>
+	<p>Top Review: <q><i>A great system that has withstood the test of time, despite it's short life. It is packed with a library of memorable titles, and still maintains an online presence with faithful and dedicated fans.</i></q></p>
+	<br>
+	<form>
+		<p>Anything to add? write here: </p>
+		<textarea cols="30" rows="20" placeholder="Cast your enthusiasm"></textarea><br>
+		<input type="submit" name="Post">
+	</form>
+	<form action="Shopcart.html" method="Post">
+  Quantity:
+  <input type="number" id="quan" min="0" max="100" step="1" value="1">
+  <button onclick="addToCart()">Add To Cart</button>
+</form>
+</body>
+</html>

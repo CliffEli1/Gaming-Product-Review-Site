@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>GN: Nintendo</title>
+<link href="https://fonts.googleapis.com/css?family=Coda+Caption:800|Indie+Flower|Lobster|Work+Sans" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/
+font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="cscript.js"></script>
+<style type="text/css">
+	body{
+		background: linear-gradient(red, gray);
+		color: white;
+	}
+	.menu {
+		list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+	}
+	.menu li {
+		float: left;
+	}
+	.dropbtn {
+    	background-color: darkred;
+    	text-shadow: 1px 1px 2px blue; 
+    }
+    .drop-content {
+    display: none;
+    position: absolute;
+    background-color: darkred;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.drop-content a {
+	text-shadow: 1px 1px 2px blue;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.drop-content a:hover {background-color: #f1f1f1}
+
+.drop:hover .drop-content {
+    display: block;
+}
+	.middle {
+		text-align: center;
+	}
+	h1 {
+		font-size: 20px;
+		font-style: italic;
+		font-family: Lobster;
+
+	}
+	h3 {
+		font-weight: bold;
+	}
+	body > h1{
+		font-size: 30px;
+	}
+	img{
+		align-self: center;
+		border: 15px solid red;
+		outline: 20px groove red;
+		width: 400px;
+		height: 151px;
+	}
+	div > img {
+		height: 151px;
+		width: 151px;
+		margin-left: auto;
+		margin-right: 30px;
+		float: left;
+
+	}
+	.headPhoto{
+		align-self: center;
+		border: 15px solid red;
+		outline: 20px groove red;
+		margin-right:550px; 
+		margin-left:450px;
+		width: 400px;
+		height: 151px;
+	}
+	/*.clearfix{
+		overflow: auto;
+	}*/
+	a:link, a:visited {
+    color: blue;
+    padding: 7px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+}
+a:hover, a:active {
+background-color: white;
+text-decoration: underline;
+font-size: 25px;
+}
+li {
+	font-style: italic;
+}
+caption {
+	padding: 10px 0 0;
+}
+.scrgam {
+	width: 240px; 
+	height: 130px;
+}
+</style>
+</head>
+<h1 style="padding-bottom: 20px" style="color: red;" style="font-family: Lobster">Game Nomad</h1>
+<body>
+	<img src="Nintendo logo.png" class="headPhoto" style="display: block;" title="Nintendo logo">
+	<h1 style="text-align: center;" style="font-family: Lobster"><b>Products</b></h1>
+	<ul class="menu">
+	<li class="drop">
+    <a href="javascript:void(0)" class="dropbtn"><i class="fa fa-bars"></i></a>
+    <div class="drop-content">
+     <a href="Nintendo.html" style="display: block;">Back to Main Page</a>
+     <a href="N Franchises.html" style="display: block;">Franchises</a>
+     <a href="https://www.nintendo.com/" target="_blank" style="display: block;">Site</a>
+    </div>
+  </li>
+	</ul>
+	<hr>
+	<h2><i>Nintendo Gamecube (r. 2001)</i></h2>
+	<h3>Price: $199.00</h3>
+	<div><img src="https://images.lukiegames.com/t_300e2/assets/images/GC/gcsys_black_fl_p_gj1trn.jpg"></div>
+	<p style="font-size: 20px">
+		This console was one of the greatest products ever to be released at the turn of the century. It showcased many of the greatest entries to Nintendo's franchises, and had the best controller model and highest quality library. However, there are some problems to the console, like its smaller discs and need for a memory card, as well as for extra accessories for certain games. That aside, it stands on it's own, and was perhaps the greatest triumph for Nintendo.
+	</p>
+	<br>
+	<br>
+	<p>Top Review: <q><i>An amazing console with many impressive entries and innovative but limited features. This may very well be considered as the millenial's gateway console.</i></q></p>
+	<br>
+	<form>
+		<p>Anything to add? write here: </p>
+		<textarea cols="30" rows="20" placeholder="Cast your enthusiasm"></textarea><br>
+		<input type="submit" name="Post">
+	</form>
+	<form action="Shopcart.html" method="Post">
+  Quantity:
+  <input type="number" id="quan" min="0" max="100" step="1" value="1">
+  <button onclick="addToCart()">Add To Cart</button>
+</form>
+	<hr>
+	<h2><i>Nintendo Wii/Wii U (r. 2006, 2012 respectively)</i></h2>
+	<h3>Price: $249.99(Wii), $299.99(Wii U)</h3>
+	<div><img src="wii.jpg"></div>
+	<div><img src="Wii U.jpg"></div>
+	<p style="font-size: 20px">
+		The next two systems after the gamecube both cut wires with the new motion control technology and, in the Wii U's case, a touchscreen gamepad. The Wii had more features than the Gamecube, like an online browser and digital store, as well as backwards compatability with gamecube titles. Of course, the Wii had some treasured entries, and when it's younger brother, the Wii U, was released, people were ultimately disappointed. The fact that it had a gamepad with a screen was not enough to warrant much praise and enthusiasm, and it didn't have alot of good titles to make up for it. 
+	</p>
+	<br>
+	<p>Top Review: <q><i>The Wii is as great innovative console with its motion control and decent library. On the other hand, the Wii U didn't gain enough traction to stand out like the Wii did, and not having enough good games put it in an early grave.</i></q></p>
+	<br>
+	<br>
+	<form>
+		<p>Anything to add? write here: </p>
+		<textarea cols="30" rows="20" placeholder="Cast your enthusiasm"></textarea><br>
+		<input type="submit" name="Post">
+	</form>
+	<form action="Shopcart.html" method="Post">
+  Quantity:
+  <input type="number" id="quan" min="0" max="100" step="1" value="1">
+  <button onclick="addToCart()">Add To Cart</button>
+</form>
+	<hr>
+	<h2><i>Nintendo 3DS/2DS Family(r. 2011- )</i></h2>
+	<h3>Price: $169(3DS), $79.99(2DS), $149.99(New 2DS XL), $199.99(New 3DS XL)</h3>
+	<div><img src="https://c1.staticflickr.com/6/5585/15111603452_e5299ee6e4_b.jpg"></div>
+	<p style="font-size: 20px">
+		One may say that this console got better with age. Being the successor to the popular DS and DSi, this next system had some big shoes to fill. The Nintendo 3DS' reveal was interesting, but it's launch was painful. The price had to be dropped and extra content was released to day one buyers, but it only slowed it's decline. It wasn't until the lifesaving release of the title <i>Super Mario 3D Land</i> that the 3ds made a stable comeback, and from there, other great and noteworthy titles were released, as well as improved and modified versions of the console, making it one of the best-selling handhelds by Nintendo. 
+	</p>
+	<br>
+	<p>Top Review: <q><i> A good handheld with excellent and interesting features. The library is bigger than any other handheld library in existence, and if you arn't a collector, then you can settle with the interesting entries and underrated gems that are just too interesting to pass up.</i></q></p>
+	<br>
+	<form>
+		<p>Anything to add? write here: </p>
+		<textarea cols="30" rows="20" placeholder="Cast your enthusiasm"></textarea><br>
+		<input type="submit" name="Post">
+	</form>
+	<form action="Shopcart.html" method="Post">
+  Quantity:
+  <input type="number" id="quan" min="0" max="100" step="1" value="1">
+  <button onclick="addToCart()">Add To Cart</button>
+</form>
+	<hr>
+	<h2><i>Nintendo Switch (r. 2017)</i></h2>
+	<h3>Price: $299.99</h3>
+	<div><img src="https://www.nintendo.com/switch/etRgxnAu0zRX4bmWnt9K628wG7YQUI6t/images/switch/buy-now/bundle_color_console.jpg"></div>
+	<p style="font-size: 20px">
+		The most recent release by Nintendo. This console has been making waves since its release, with top-tier games like <i>The Legend of Zelda: Breath of the Wild</i> and <i>Super Mario Odyssey</i>. It also boasts being the first hybrid console, with functionality as a home console and having on-the-go capabilities. It has nearly a plethora of controller setups, like using either both or one of the Switch's signature Joy-cons, a traditional pro controller, and even use with a gamecube controller. The sky's the limit with this new console, and many look forward to the mark it makes in the future.
+	</p>
+	<br>
+	<p>Top Review: <q><i>A new system with promising potential, the Switch has some good titles out for it already, with more well on the way. While most get theirs immediately, there are some who wait for a good reason to get the system; whatever your intention, you will not be disappointed.</i></q></p>
+	<br>
+	<form>
+		<p>Anything to add? write here: </p>
+		<textarea cols="30" rows="20" placeholder="Cast your enthusiasm"></textarea><br>
+		<input type="submit" name="Post">
+	</form>
+	<form action="Shopcart.html" method="Post">
+  Quantity:
+  <input type="number" id="quan" min="0" max="100" step="1" value="1">
+  <button onclick="addToCart()">Add To Cart</button>
+</form>
+</body>
+</html>

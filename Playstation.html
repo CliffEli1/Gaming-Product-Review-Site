@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>GN: Sony</title>
+<link href="https://fonts.googleapis.com/css?family=Coda+Caption:800|Indie+Flower|Lobster|Work+Sans" rel="stylesheet">
+<style type="text/css">
+	body{
+		background: linear-gradient(black, red, yellow) ;
+		color: white;
+	}
+	ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    }
+    li {
+    	float: left;
+    }
+    .dropbtn {
+    	text-shadow: 1px 1px 2px black;
+    }
+    .dropbtn:hover {
+    	background-color: white;
+    }
+    .drop-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.drop-content a {
+	text-shadow: 1px 1px 2px black;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.drop-content a:hover {background-color: #f1f1f1}
+
+.drop:hover .drop-content {
+    display: block;
+}
+	h1 {
+		float: left;
+		font-size: 20px;
+		font-style: italic;
+		font-family: Lobster;
+	}
+	img{
+		align-self: center;
+		border: 15px solid red;
+		outline: 20px groove yellow;
+		margin-right:550px; 
+		margin-left:450px;
+		width: 400px;
+		height: 151px;
+	}
+	div > img {
+		height: 350px;
+		width: 750px;
+		margin-left: 250px;
+	}
+	.clearfix{
+		overflow: auto;
+	}
+	a:link, a:visited {
+color: green;
+padding: 7px 15px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 25px;
+}
+a:hover, a:active {
+background-color: white;
+text-decoration: underline;
+font-size: 25px;
+}
+</style>
+</head>
+<h1 style="padding-bottom: 20px" style="color: red;">Game Nomad</h1>
+<body>
+	<img src="Playstation logo.png" style="display: block;" title="Playstation logo">
+	<hr>
+	<ul> 
+	<li><a href="Project idea.html" title="Main Page">Home Page</a></li>
+	<li class="drop">
+    <a href="javascript:void(0)" class="dropbtn" title="Select another Company Page">Other Companies</a>
+    <div class="drop-content">
+     <a href="Nintendo.html" style="display: block;" title="to Nintendo Page">Nintendo</a>
+     <a href="Sega.html" style="display: block;" title="To Sega Page">Sega</a>
+    </div>
+  </li>	
+	</ul>
+	<hr>
+	<a href="PS Products.html">PS Products</a>
+	<a href="PS Franchises.html">PS Franchises</a>
+	<a href="https://www.playstation.com/en-us/" target="_blank">To PS Site</a>
+	<hr>
+	<div class="clearfix"><img src="playstation all stars.jpg" style="display: block;" title="PS Mascots"></div>
+</body>
+</html>

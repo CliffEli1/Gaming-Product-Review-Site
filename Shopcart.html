@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>GN: Shopping Cart</title>
+<script src="cscript.js"></script>
+<style type="text/css">
+	body{
+		background-image: url("gamification.jpg");
+
+		color: navy;
+	}
+	table{
+		background-color: red;
+	}
+	table, th, td{
+		border: 3px solid yellow;
+	}
+	h1 {
+		font-size: 30px;
+		font-style: italic;
+		font-family: Lobster;
+	}
+	img{
+		border: 15px solid black;
+		outline: 20px ridge white;
+	}
+	a > img {
+		border: none;
+		outline: none; 
+	}
+	a:link, a:visited {
+color: blue;
+padding: 7px 15px;
+text-decoration: none;
+display: inline-block;
+font-weight: bold;
+font-size: 25px;
+}
+a:hover, a:active {
+background-color: white;
+text-decoration: underline;
+font-weight: bold;
+font-size: 25px;
+}
+a:hover > img {
+	background-color: red;
+}
+a
+</style>
+</head>
+<h1 style="padding-bottom: 20px">Game Nomad: Product Cart</h1>
+<body>
+	<div>
+		<label>Product: </label>
+		<input type="text" id="pnam"><br>
+	<label>Quantity: </label>
+	<input type="number" id="quan"><br>
+	<label>Price: </label>
+	<input type="number" id="pprice"><br>
+	<button onclick="addToCart()">Add</button>
+	</div>
+	
+	<div id="cart"></div>
+	<button onclick="goBack()">Back</button>
+	<script>
+function goBack() {
+    window.history.back();
+}
+</script>
+</body>
+</html>
